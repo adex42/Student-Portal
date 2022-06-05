@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Roboto ;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+} 
+body
+{
+    margin:0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    font-family:  "Roboto", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.signupform
+{
+    width: 33%;
+    height: 500px;
+    background: #2c2c2c;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    margin: 35px 33%;
+    padding: 20px 10px 10px 60px;
+    border: none;
+    border-radius: 5%;
+}
+.signupform input[type="text"] , input[type="password"] ,input[type="email"]
+{
+    background: transparent;
+    border: none;
+    border-bottom: #fff 1px solid;
+    color: #fff;
+}
+.first_name,.last_name,.email,.password
+{
+    font-weight: bold;
+}
+.signup_heading
+{
+    margin-right: 50px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-weight:900;
+    font-size: 40px;
+
+}
+.signup_button
+{
+    border: none;
+    border-radius: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,98,209,1) 0%, rgba(0,161,255,1) 100%);
+    width: 200px;
+    height: 30px;
+    box-shadow: #fff 20px;
+    align-items: center;
+    box-shadow: 2px 2px 3px 3px rgb(29,29,29);
+    margin-top: 20px;
+    margin-left: 20%;
+    color: #fff;
+}
+.signup_button:hover
+{
+    opacity: 75%;
+}
+.terms
+{
+    text-align: center;
+    padding-right: 50px;
+}

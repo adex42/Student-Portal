@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form   action="../php/signup.php"method="POST"  class="signupform">
+        <h1 class="signup_heading">Sign Up</h1>
+        <label class="first_name" name = "first_name">
+            First Name: <input type="text" required placeholder="Enter first name">
+        </label><br><br>
+        <label class="last_name" name = "last_name">
+            Last Name: <input type="text" required placeholder="Enter last name">
+        </label><br><br>
+        <label class="user_name" name = "user_name">
+            Username: <input type="text" required placeholder="Enter username">
+        </label><br><br>
+        <label class="email" name = "email">
+            Email: <input type="email" required placeholder="Enter emai-id">
+        </label><br><br>
+        <label class="password" name = "password">
+            Password: <input type="password" required placeholder="Enter password">
+        </label><br><br> 
+        <label class="password" name = "confirm_password">
+            Confirm Password: <input type="password" required placeholder="Confirm password">
+        </label><br><br> 
+        <button class="signup_button">Sign Up</button>
+        <br>
+        <br>
+        <br>
+        <div class="terms">By clicking the Sign Up button you agree to our <br><a href="">Terms and Conditions</a> and <a href="">Policy Privacy</a></div>
+        <br>
+
+    </form>
+</body>
